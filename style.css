@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.heading {
+    background-image: url(./donate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: auto;
+}
+
+.heading h1 {
+    color: #fff;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgba(153, 152, 152, 0.377);
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.h1-right {
+    position: absolute;
+    left: 70px;
+    background: rgba(153, 152, 152, 0.377);
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+.heading p {
+    position: absolute;
+    top: 250px;
+    left: 486px;
+    color: #fff;
+}
+
+.button {
+    position: absolute;
+    top: 350px;
+    left: 500px;
+}
