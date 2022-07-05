@@ -47,5 +47,21 @@
 .button {
     position: absolute;
     top: 350px;
-    left: 500px;
+    left: 575px;
+    background: rgb(219, 99, 99);
+
+    padding: 10px 15px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+
+}
+
+.button:hover {
+    background: rgba(71, 69, 69, 0.877);
+    color: #fff;
+    transition: .4s;
 }
