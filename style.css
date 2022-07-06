@@ -1,3 +1,10 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -64,4 +71,134 @@
     background: rgba(71, 69, 69, 0.877);
     color: #fff;
     transition: .4s;
+}
+
+.middle {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    display: inline-block;
+
+}
+
+.box {
+    text-align: center;
+}
+
+
+
+.box ul li {
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px rgb(105, 101, 101);
+    color: #000;
+    padding: 10px 15px;
+
+
+}
+
+.different {
+    border: 3px solid coral;
+}
+
+.link-button {
+    background-color: red, yellow;
+    text-decoration: none;
+    padding-left: 50%;
+
+}
+
+.more-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service {
+    display: flex;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.devide {
+    margin: 20px;
+    box-shadow: 20px 20px 40px gray;
+    background-image: url(./back.jpg);
+    width: 30%;
+    height: 50%;
+}
+
+.devide-more {
+    margin: 20px;
+    box-shadow: 20px 20px 40px gray;
+    background-image: url(./background.jpg);
+
+}
+
+.devide-once {
+    margin: 20px;
+    box-shadow: 20px 20px 40px gray;
+    background-image: url(./images.jpg);
+}
+
+.good-work {
+    overflow: hidden;
+    width: 50%;
+}
+
+.something {
+    display: flex;
+    padding: 50px;
+}
+
+.good-work img {
+    width: 100%;
+}
+
+.good-work-this {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.good-work-this h1 {
+    font-size: 50px;
+
+}
+
+.help-btn {
+    border: none;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: tomato;
+    font-size: 20px;
+
+}
+
+.help-btn a {
+
+    text-decoration: none;
+    color: #fff;
+}
+
+.help-button {
+    margin-top: 50px;
+}
+
+.more-and-more {
+    text-align: center;
+    background-color: aqua;
+    padding: 70px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+.in-the-end {
+    padding: 70px;
+}
+
+.end {
+    text-align: center;
 }
